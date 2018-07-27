@@ -28,4 +28,8 @@ https://data.sfgov.org/api/geospatial/rarb-5ahf?method=export&format=Shapefile
 Put into
 /data/sf_open
 
+Demographic Data
+Demographic data can be found at https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml
+Data should be extracted at the most granular geographic level (census block groups).
+
 Once the data is downloaded and put into its respective locations, run each script in order (1_clean_from_source.ipynb, then 2-0_make_blocks.ipynb, etc.)
